@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T-Shirts</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>T-Shirts Store</h1>
+  <div id="app">
+    <ul class="t-shirts">
+      <li class="t-shirt" v-for="tShirt in tShirts">
+        <!-- DON"T HAVE A CLUE THE REASON MOSTACHE SYNTAX NOT WORKING -->
+        <img :src="'./images/' + tShirt.image" :alt="tShirt.image">
+        <h2>{{ tShirt.title }}</h2>
+        <p class="price">$ {{ tShirt.price }}</p>
+        <p class="stock" v-if="tShirt.stock > 0"><strong>{{ tShirt.stock }}</strong></br> available</p>
+        <p class="outstock" v-else><strong>out of stock</strong></p>
+        <p class="next-shipment"><strong>{{ nextShipmentDays(tShirt.nextShipment) }} days</strong></br> for next Shipment</p>
+        <!-- Applied the decrementation here instead of calling a function for a single line job -->
+        <button @click="tShirt.stock--" class="btn btn-primary" v-if="tShirt.stock > 0">BUY</button>
+      </li>
+    </ul>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="t-shirts.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
