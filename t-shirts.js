@@ -1,7 +1,7 @@
 const tshirts = [
   {
     title: 'Blue T-Shirt',
-    image: 'blue-t-shirt.jpg',
+    image: 'https://algonquinlivecom-my.sharepoint.com/personal/huss0249_algonquinlive_com/Documents/test-web-img/IMG_1813.JPG',
     price: 7.99,
     stock: 4,
     nextShipment: {
