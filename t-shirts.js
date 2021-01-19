@@ -67,7 +67,7 @@ const tshirts = [
   },
   {
     title: 'Purple T-Shirt',
-    image: 'purple-t-shirt.jpg',
+    image: 'images/purple-t-shirt.jpg',
     price: 7.99,
     stock: 0,
     nextShipment: {
