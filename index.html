@@ -13,7 +13,7 @@
     <ul class="t-shirts">
       <li class="t-shirt" v-for="tShirt in tShirts">
         <!-- DON"T HAVE A CLUE THE REASON MOSTACHE SYNTAX NOT WORKING -->
-        <img :src=tShirt.image>
+        <img :src="tShirt.image">
         <h2>{{ tShirt.title }}</h2>
         <p class="price">$ {{ tShirt.price }}</p>
         <p class="stock" v-if="tShirt.stock > 0"><strong>{{ tShirt.stock }}</strong></br> available</p>
