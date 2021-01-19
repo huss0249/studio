@@ -22,8 +22,8 @@ const tshirts = [
     }
   },
   {
-    title: 'Cobalt Blue T-Shirt',
-    image: 'cobalt-blue-t-shirt.jpg',
+    title: 'g1Cobalt Blue T-Shirt',
+    image: 'https://drive.google.com/drive/folders/1hYRIqnD4r_qGZedc4bxC90G6nntabptt?usp=sharing/1.png',
     price: 9.99,
     stock: 5,
     nextShipment: {
@@ -33,8 +33,8 @@ const tshirts = [
     }
   },
   {
-    title: 'Green T-Shirt',
-    image: 'green-t-shirt.jpg',
+    title: 'g2Green T-Shirt',
+    image: 'https://drive.google.com/drive/folders/1hYRIqnD4r_qGZedc4bxC90G6nntabptt?usp=sharing/2.png',
     price: 6.99,
     stock: 0,
     nextShipment: {
@@ -44,8 +44,8 @@ const tshirts = [
     }
   },
   {
-    title: 'Grey T-Shirt',
-    image: 'blue-t-shirt.jpg',
+    title: 'ggGrey T-Shirt',
+    image: 'https://drive.google.com/drive/folders/1hYRIqnD4r_qGZedc4bxC90G6nntabptt?usp=sharing',
     price: 4.99,
     stock: 2,
     nextShipment: {
@@ -55,8 +55,8 @@ const tshirts = [
     }
   },
   {
-    title: 'Light Green T-Shirt',
-    image: 'light-green-t-shirt.jpg',
+    title: 'wwwgLight Green T-Shirt',
+    image: 'https://drive.google.com/file/d/1m9OseQUdLqhH9dgMF3asYFSZelK2GC1s/view?usp=sharing',
     price: 7.99,
     stock: 4,
     nextShipment: {
